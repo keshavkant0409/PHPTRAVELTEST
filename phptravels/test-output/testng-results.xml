@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-13T18:17:18 IST" name="Default suite" finished-at="2020-02-13T18:17:43 IST" duration-ms="24730">
+    <groups>
+    </groups>
+    <test started-at="2020-02-13T18:17:18 IST" name="Default test" finished-at="2020-02-13T18:17:43 IST" duration-ms="24730">
+      <class name="stepdefinition.FlightSearchStepDefinition">
+        <test-method signature="open_Web_browser_and_URL_for_flight_search()[pri:0, instance:stepdefinition.FlightSearchStepDefinition@28975c28]" started-at="2020-02-13T18:17:18 IST" name="open_Web_browser_and_URL_for_flight_search" finished-at="2020-02-13T18:17:31 IST" duration-ms="13333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Web_browser_and_URL_for_flight_search -->
+        <test-method signature="select_Flight_at_home_and_enter_departure_destination_and_date()[pri:1, instance:stepdefinition.FlightSearchStepDefinition@28975c28]" started-at="2020-02-13T18:17:31 IST" name="select_Flight_at_home_and_enter_departure_destination_and_date" finished-at="2020-02-13T18:17:37 IST" duration-ms="5909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Flight_at_home_and_enter_departure_destination_and_date -->
+        <test-method signature="click_on_Search()[pri:2, instance:stepdefinition.FlightSearchStepDefinition@28975c28]" started-at="2020-02-13T18:17:37 IST" name="click_on_Search" finished-at="2020-02-13T18:17:41 IST" duration-ms="3780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Search -->
+        <test-method signature="select_Route_Stop_and_Airline()[pri:3, instance:stepdefinition.FlightSearchStepDefinition@28975c28]" started-at="2020-02-13T18:17:41 IST" name="select_Route_Stop_and_Airline" finished-at="2020-02-13T18:17:42 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Route_Stop_and_Airline -->
+        <test-method signature="close_browser()[pri:4, instance:stepdefinition.FlightSearchStepDefinition@28975c28]" started-at="2020-02-13T18:17:42 IST" name="close_browser" finished-at="2020-02-13T18:17:43 IST" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- stepdefinition.FlightSearchStepDefinition -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
