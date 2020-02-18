@@ -11,6 +11,8 @@ Feature: Check share feature and complete booking of Tour
 		And click Check Availability for booking
 		And Close tour browser page
 		
-		
+		#selecting the first option on select tour 
+		#checking the email share option is enabled and displayed
+		#entering the booking options details
 		
 	

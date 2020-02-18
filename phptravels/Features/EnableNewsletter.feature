@@ -9,8 +9,9 @@ Feature: Subscribe NewsLetter Functionality
 		
 	Examples:
 			|email|
-		|7870saurabhkumar@gmail.com|
+		|abcd@gmail.com|
 
+#provided email is dummy edit with correct email 
 		
 		
 		

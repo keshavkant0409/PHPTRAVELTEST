@@ -7,11 +7,13 @@ Feature: Login to PHPTRAVEL
 		Then Verify Login page
 		And Close browser
 		
-		
+	#use number of accounts you want to test for login feature.
+	# Below is the dummy username and password. Replace with correct one
+	
 	Examples:
 		|		username			|		password		|
-		|	kantkeshav0409@gmail.com|		Shiv@0120	|
+		|	abc@gmail.com			|		abcd			|
 
-		
+	
 		
 		
