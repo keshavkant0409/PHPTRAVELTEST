@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= "./Features/EnableNewsletter.feature",glue= {"stepdefinition","EnableNewsletterStepDefinition.java"})
+@CucumberOptions(features= "./Features/EnableNewsletter.feature",glue= {"com.stepdefinition","EnableNewsletterStepDefinition.java"})
 
 public class EnableNewsletter {
 

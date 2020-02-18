@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= "./Features/FlightSearch.feature",glue= {"stepdefinition","FlightSearchStepDefinition.java"},plugin = { "pretty"})
+@CucumberOptions(features= "./Features/FlightSearch.feature",glue= {"com.stepdefinition","FlightSearchStepDefinition.java"},plugin = { "pretty"})
 public class FlightSearch {
 
 }

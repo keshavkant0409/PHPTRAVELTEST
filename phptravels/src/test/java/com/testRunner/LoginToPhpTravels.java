@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= "./Features/Login.feature",glue= {"stepdefinition","LoginStepDefinition.java"},plugin = { "pretty"})
+@CucumberOptions(features= "./Features/Login.feature",glue= {"stepdefinition","com.LoginStepDefinition.java"},plugin = { "pretty"})
 
 
 public class LoginToPhpTravels{

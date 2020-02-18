@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stepdefinition.FlightSearchStepDefinition">
+      <class name="com.stepdefinition.ToursBookingStepDefinition">
         <methods>
+          <include name="personal_Details_page_will_open_Enter_personal_details"/>
+          <include name="verify_email_share_option"/>
+          <include name="click_Check_Availability_for_booking"/>
+          <include name="select_tour"/>
+          <include name="click_Check_Availability"/>
           <include name="close_browser"/>
+          <include name="enter_Booking_options_details"/>
         </methods>
-      </class> <!-- stepdefinition.FlightSearchStepDefinition -->
+      </class> <!-- com.stepdefinition.ToursBookingStepDefinition -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
